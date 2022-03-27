@@ -39,7 +39,7 @@ def get_file_mime(file):
 def get_file_attributes(file):
     attrs = []
     mime = get_file_mime(file)
-    if mime == 'video':
+    if True:
         metadata = video_metadata(file)
         video_meta = metadata
         meta_groups = None
